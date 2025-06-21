@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sanjeev Kumar Portfolio</title>
+
+    <!--
+    - favicon
+  -->
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+      <!--
+      - #SIDEBAR
+    -->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./assets/images/profile-pic.jpg"
+              alt="Richard hanrick"
+              width="80"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name gradient-text" title="Sanjeev Kumar">
+              Sanjeev Kumar
+            </h1>
+
+            <p class="title">Full Stack Web Developer</p>
+            <div class="separator"></div>
+
+            <ul class="social-list">
+              <li class="social-item">
+                <a
+                  href="https://github.com/sanjeev-kumar-nsut"
+                  class="social-link"
+                >
+                  <ion-icon name="logo-github"></ion-icon>
+                </a>
+              </li>
+
+              <li class="social-item">
+                <a
+                  href="https://leetcode.com/u/sulodha2002/"
+                  class="social-link"
+                >
+                  <ion-icon name="code-slash-outline"></ion-icon>
+                </a>
+              </li>
+
+              <li class="social-item">
+                <a
+                  href="https://leetcode.com/u/sulodha2002/"
+                  class="social-link"
+                >
+                  <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <!-- <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div> -->
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a
+                  href="mailto:sanjeev.kumar.nsut@gmail.com"
+                  class="contact-link"
+                  >sanjeev.kumar.nsut@gmail.com</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <!-- <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div> -->
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+
+                <a href="tel:+91 8920654398" class="contact-link"
+                  >+91 8920654398</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <!-- <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div> -->
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Gurgaon, India</address>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!--
+      - #main-content
+    -->
+
+      <div class="main-content">
+        <!--
+        - #NAVBAR
+      -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="#about" class="scroll-link"
+                ><button class="navbar-link active" data-nav-link>
+                  About
+                </button></a
+              >
+            </li>
+
+            <li class="navbar-item">
+              <a href="#education" class="scroll-link">
+                <button class="navbar-link" data-nav-link>Education</button>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#work" class="scroll-link">
+                <button class="navbar-link" data-nav-link>Experience</button>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#skills" class="scroll-link">
+                <button class="navbar-link" data-nav-link>Skills</button>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#projects" class="scroll-link">
+                <button class="navbar-link" data-nav-link>Projects</button>
+              </a>
+            </li>
+            <li class="navbar-item">
+              <a href="#awards" class="scroll-link">
+                <button class="navbar-link" data-nav-link>Awards</button>
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <!--
+        - #ABOUT
+      -->
+
+        <article id="about" class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              • A full-stack web developer with expertise in Java, Spring Boot,
+              React and Data Structures and Algorithms(DSA).
+              <br />• Experienced in API integration, microservices and event
+              driven architecture. <br />• An award-winning contributor,
+              recognized with Airtel’s Rookie and ACE awards. <br />
+              • Successfully developed impactful projects, including a web
+              platform for college essentials and an NPM image viewer library.
+            </p>
+          </section>
+          <a
+            href="https://drive.google.com/file/d/18-Z7dMQONsLDjqREHAWHXPutDiTN3QIX/view?usp=sharing"
+            class="resume-btn"
+            target="_blank"
+            >Open Resume</a
+          >
+        </article>
+
+        <!--
+        - #Education
+      -->
+
+        <article id="education" class="education active" data-page="education">
+          <header>
+            <h2 class="h2 article-title">Education</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Still Learning</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  B. Tech : Netaji Subhas University of Technology
+                </h4>
+
+                <span>2019 — 2023</span>
+
+                <p class="timeline-text">
+                  Branch : Electronics and Communication Engineering(ECE) <br />
+                  Grade : 8.32 GPA
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Class XII : Kendriya Vidyalaya
+                </h4>
+
+                <span>2018 — 2019</span>
+
+                <p class="timeline-text">
+                  Subjects : PCM + CS <br />
+                  Grade : 91.2%
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Class X : Kendriya Vidyalaya
+                </h4>
+
+                <span>2016 — 2017</span>
+
+                <p class="timeline-text">Grade : 10 GPA</p>
+              </li>
+            </ol>
+          </section>
+        </article>
+
+        <!--
+        - #Experience
+      -->
+
+        <article id="work" class="work active" data-page="work">
+          <header>
+            <h2 class="h2 article-title">Experience</h2>
+          </header>
+
+          <section class="timeline">
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Airtel</h4>
+
+                <span>Oct 2019 — Present</span>
+
+                <p class="timeline-text">
+                  • Developed and enhanced features for the Airtel Thanks for
+                  Business website using Spring Boot and React.<br />
+                  • Worked on event-driven architecture for service requests and
+                  SR related events.<br />
+                  • Optimized JavaScript bundle size, reducing page load time by
+                  30%.<br />
+                  • Integrated SSO for seamless login and developed reusable
+                  front-end components, including headers and footers.<br />
+                  • Implemented API caching to improve response times and
+                  efficiently onboarded 5+ Lines of Business (LOBs).<br />
+                  • Identified multiple security concerns, such as JavaScript
+                  injections, and resolved them using proper validations and
+                  regex.<br />
+                  • Designed and deployed an image viewer library with zoom,
+                  rotate, and carousel functionality.<br />
+                  • Successfully resolved production issues to ensure smooth
+                  operations and customer satisfaction
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Saptang Labs</h4>
+
+                <span>May 2022 — July 2022</span>
+
+                <p class="timeline-text">
+                  Built a MERN stack website to display and monitor machine
+                  learning model results. <br />Developed both the user
+                  interface (UI) and backend functionality and wrote unit tests
+                  (UT) to ensure the reliability and functionality of the
+                  implemented features.
+                </p>
+              </li>
+            </ol>
+          </section>
+        </article>
+
+        <!--
+        - #Skills
+      -->
+
+        <article id="skills" class="skills active" data-page="skills">
+          <header>
+            <h2 class="h2 article-title">Skills</h2>
+          </header>
+          <section class="timeline">
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">C++, Java, Javascript</h4>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Spring, Microservices, JDBC, Factory Pattern, REST API, Event
+                  Driven Architecture
+                </h4>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  React, Typescript, Tailwind, Redux, Next.js, Micro Frontent
+                </h4>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Mongo DB, Rabbit MQ</h4>
+              </li>
+            </ol>
+          </section>
+        </article>
+
+        <!--
+        - #Projects
+      -->
+
+        <article id="projects" class="projects active" data-page="projects">
+          <header>
+            <h2 class="h2 article-title">Projects</h2>
+          </header>
+
+          <section class="projects">
+            <ul class="project-list">
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="https://senior-sells.web.app/">
+                  <figure class="project-img">
+                    <img
+                      src="./assets/images/senior-sells.png"
+                      alt="finance"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h4 class="project-title">Senior Sells</h4>
+                  <p class="project-category">
+                    Website to buy and sell college essentials
+                  </p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <img
+                      src="./assets/images/image-viewer.png"
+                      alt="orizon"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h4 class="project-title">Image Viewer</h4>
+
+                  <p class="project-category">NPM Library</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web design"
+              >
+                <a href="https://cart-3c303.firebaseapp.com/">
+                  <figure class="project-img">
+                    <img
+                      src="./assets/images/trending-frontend-designs.png"
+                      alt="fundo"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h4 class="project-title">Trending Frontend Design</h4>
+
+                  <p class="project-category">Codepen Alternative</p>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #Awards
+      -->
+
+        <article id="awards" class="projects active" data-page="projects">
+          <header>
+            <h2 class="h2 article-title">Awards</h2>
+          </header>
+
+          <section class="projects">
+            <ul class="project-list">
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="https://senior-sells.web.app/">
+                  <figure class="project-img">
+                    <img
+                      src="./assets/images/ace-award.png"
+                      alt="finance"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h4 class="project-title">Airtel Ace Award</h4>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <img
+                      src="./assets/images/customer-obsession.png"
+                      alt="orizon"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h4 class="project-title">Customer Obsession Award</h4>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web design"
+              >
+                <a href="https://cart-3c303.firebaseapp.com/">
+                  <figure class="project-img">
+                    <img
+                      src="./assets/images/google-kickstart.png"
+                      alt="fundo"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h4 class="project-title">3,683 Rank in Google Kickstart</h4>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
