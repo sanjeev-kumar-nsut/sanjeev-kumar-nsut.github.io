@@ -332,7 +332,7 @@ main {
 
 .sidebar {
   margin-bottom: 15px;
-  max-height: 112px;
+  max-height: 135px;
   overflow: hidden;
   transition: var(--transition-2);
 }
@@ -1135,6 +1135,9 @@ article {
 }
 
 @media (max-width: 580px) {
+  .main-content {
+    padding-bottom: 20px;
+  }
   .project-img {
     min-height: 90px;
     max-height: 140px;
